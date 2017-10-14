@@ -48,7 +48,6 @@ int strLen(char str[], int index)
 int main()
 {
     printf("STRING CONCAT FUNCTION:\n");
-    printf("Enter Two String to Concat them.....\n");
     char s1[100], s2[100];
     scanf("%s %s",&s1,&s2);
     int len1 = strLen(s1, 0);
@@ -56,7 +55,6 @@ int main()
     cout << "String After Concat: " << strCat(s1, s2, 0, len1, len2) << endl;
 
     printf("\nSTRING COPY FUNCTION:\n");
-    printf("Enter a String to be Copied.....\n");
     char input[100];
     scanf("%s",&input);
     int inputLen = strLen(input, 0);
@@ -64,7 +62,6 @@ int main()
     cout << "Input String: " << input << "\nCopied String: " << strCpy(output, input, 0, inputLen) << endl;
 
     printf("\nSTRING COMPARE FUNCTION:\n");
-    printf("Enter Two String to Compare them.....\n");
     char s3[100], s4[100];
     scanf("%s %s",&s3,&s4);
     int len3 = strLen(s3, 0);
@@ -74,7 +71,6 @@ int main()
     else printf("Both String Does not Matched\n");
 
     printf("\nSTRING LENGTH FUNCTION:\n");
-    printf("Enter a String to be Copied.....\n");
     char test[100];
     scanf("%s",&test);
     int length = strLen(test, 0);
